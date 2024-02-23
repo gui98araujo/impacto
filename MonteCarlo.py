@@ -52,6 +52,12 @@ def simulacao_monte_carlo(media_retornos_diarios, desvio_padrao_retornos_diarios
 # Configuração do título do aplicativo Streamlit e remoção da barra lateral
 st.set_page_config(page_title="Simulação Monte Carlo de Preços", page_icon="📈", layout="wide")
 
+# Exibir a imagem
+st.markdown('<img src="https://ibea.com.br/wp-content/uploads/2020/10/Capturar1.png" alt="logo" style="width:200px;">', unsafe_allow_html=True)
+
+# Adicionar espaço antes do título
+st.write("")
+
 # Título do sidebar
 st.sidebar.title('Simulações de Monte Carlo')
 
