@@ -61,7 +61,7 @@ st.set_page_config(page_title="Simulação de Preços de Calls", page_icon="📈
 st.sidebar.title('Simulação de Preços de Calls')
 
 # Input dos valores desejados
-tempo_desejado = st.sidebar.slider("Para quantos dias você quer avaliar o preço?", min_value=1, max_value=360, value=30)
+tempo_desejado = st.sidebar.slider("Para quantos dias você quer avaliar o preço?", min_value=1, max_value=180, value=30)
 
 # Carregar os dados
 data, valor_minimo_padrao, limite_inferior, limite_superior = carregar_dados("Açúcar")
