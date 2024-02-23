@@ -59,7 +59,7 @@ st.sidebar.title('Simulações de Monte Carlo')
 tipo_ativo = st.sidebar.selectbox("Selecione o tipo de ativo", ["Açúcar", "Dólar"])
 
 # Input dos valores desejados
-tempo_desejado = st.sidebar.slider("Para quantos dias você quer avaliar o preço?", min_value=1, max_value=360, value=30)
+tempo_desejado = st.sidebar.slider("Para quantos dias você quer avaliar o preço?", min_value=1, max_value=252, value=30)
 valor_minimo = st.sidebar.number_input("Digite o valor de teste desejado:", value=valores_padrao[tipo_ativo]["valor_minimo_padrao"])
 
 # Botão para simular
