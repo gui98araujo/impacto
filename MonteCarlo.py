@@ -22,7 +22,7 @@ valores_padrao = {
         "limite_superior": 6
     },
     "SBV24": {
-        "arquivo_csv": 'SBV24.csv',
+        "arquivo_csv": 'sbv24.csv',
         "valor_minimo_padrao": 20.0,
         "limite_inferior": 15,
         "limite_superior": 35
