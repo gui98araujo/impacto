@@ -20,6 +20,12 @@ valores_padrao = {
         "valor_minimo_padrao": 5.0,
         "limite_inferior": 4,
         "limite_superior": 6
+    },
+    "SBV24": {
+        "arquivo_csv": 'SBV24.csv',
+        "valor_minimo_padrao": 20.0,
+        "limite_inferior": 15,
+        "limite_superior": 35
     }
 }
 
@@ -62,7 +68,7 @@ st.write("")
 st.sidebar.title('Simulações de Monte Carlo')
 
 # Menu suspenso para selecionar o tipo de ativo
-tipo_ativo = st.sidebar.selectbox("Selecione o tipo de ativo", ["Açúcar", "Dólar"])
+tipo_ativo = st.sidebar.selectbox("Selecione o tipo de ativo", ["Açúcar", "Dólar", "SBV24"])
 
 # Input dos valores desejados
 tempo_desejado = st.sidebar.slider("Para quantos dias você quer avaliar o preço?", min_value=1, max_value=180, value=30)
