@@ -107,7 +107,7 @@ if st.sidebar.button("Simular"):
 
     # Visualização das simulações e estatísticas
     st.subheader("Visualização das Simulações Monte Carlo para Próximos {} Dias".format(dias_previsao))
-    fig, ax = plt.subplots(figsize=(10, 5))  # Criar a figura explicitamente
+    fig, ax = plt.subplots(figsize=(8, 4))  # Criar a figura explicitamente
 
     # Plotar as simulações
     for i in range(50):  # Mantido 50 simulações
